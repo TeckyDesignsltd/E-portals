@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-  <title>Sign up</title>
+  <title>portal</title>
 
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -35,7 +35,9 @@
 
 </head>
 <body>
-      <nav class="navbar navbar-default">
+
+
+          <nav class="navbar navbar-default">
               <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -57,14 +59,14 @@
                   </form> -->
 
                   <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
-                        <a href="index.html" ><strong>
+                    <li >
+                        <a href="index.html" style="color: #d4ae1e; font-size: 13;"><strong>
                          STUDENT</strong>
                         </a>
                     </li>
 
-                    <li>
-                       <a href="#" style="color: #d4ae1e";>HOSTEL MANAGEMENT</a>
+                    <li class="active">
+                       <a href="hostelm.html" style="font-size: 13;"><strong>HOSTEL MANAGEMENT</strong></a>
                     </li>
 
                     <!-- <li>
@@ -77,55 +79,52 @@
           </nav>
        
 
-       
-
         <div class="container ">
          <div class="col-md-4"></div>
           <div class="col-md-4 m-t-60 bs">
             <div class="panel">
               <div class="panel-body">
                 <div class="text-center">
-                  <img src="assets/img/logo.png" style="height: 55px;">
-                  <br>
+                  <img src="assets/img/logo.png" style="height: 55px; "><br>
                   <img src="assets/img/1.jpg" style="height: 105px; width: 100%;">
                   <h3>
-                    <strong><span class="thin">REGISTER</span></strong> 
+                    <strong><span class="thin">LOGIN</span></strong> 
                   </h3>
                 </div>
 
                 <div class="padded">
                   <form>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name" rel="jvfloat">
+                    <div class="form-group email required">
+                      <input class="string email required form-control" maxlength="255" name="user" placeholder="User" rel="jvfloat">
                     </div>
-                  
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Username" rel="jvfloat">
+                    <div class="form-group password required">
+                      <input class="password required form-control" name="password" placeholder="Password" type="password" rel="jvfloat">
                     </div>
-                
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Email" rel="jvfloat">
-                    </div>
-                
-                    <div class="form-group">
-                      <input type="password" class="form-control" placeholder="Password" rel="jvfloat">
-                    </div>
-                
-                    <div class="form-group">
-                      <input type="password" class="form-control" placeholder="Confirm password" rel="jvfloat">
-                    </div>
-                
+
                     <div class="form-group actions">
-                     <a class="btn btn-primary btn-block actionable-action btnlogin" name="commit">Register</a>
+                      <a class="btn btn-primary btn-block actionable-action btnlogin" name="commit" href="dashboard.html">Let's do this</a>
                     </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-xs-6">
+                          <label class="checkbox-inline no-padding">
+                            <input type="checkbox" value="1" rel="icheck" class="checkable-success"> Remember Me
+                          </label>
+                        </div>
+                        <div class="col-xs-6 text-right">
+                          <a href="#">Forgot password?</a>
+                        </div>
+                      </div>
+                    </div>
+
                   </form>
                 </div>
 
                 <div class="text-center form-group">
-                  Already have an account?
-
-                  <a href="index.html">
-                      <strong>Sign In</strong>
+                  Don't have an account?
+                  <a href="signup.html">
+                    <strong>Sign Up</strong>
                   </a>
                 </div>
               </div>

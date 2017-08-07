@@ -20,6 +20,14 @@ a, a:hover {
     text-decoration: none;
     color: black;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background: transparent;
+  color: #c02f26;
+ 
+
+}
+
+
 .btnlogin:hover{
   background-color: #74B866;
   border: 1px solid #74B866;
