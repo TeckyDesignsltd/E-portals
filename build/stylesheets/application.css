@@ -14289,7 +14289,7 @@ table.fc-border-separate {
    color: #d4ae1e; }
 /* line 57, /home/andrei/dev/emerald/source/stylesheets/bootstrap-extra/_off_canvas_aspect.scss */
 .oc-sidebar .nav .active > a {
-      color: #c02f26; }
+      color: #d4ae1e; }
 /* line 61, /home/andrei/dev/emerald/source/stylesheets/bootstrap-extra/_off_canvas_aspect.scss */
 .oc-sidebar .nav-stacked > li + li {
   margin-top: 0; }
@@ -14303,7 +14303,7 @@ table.fc-border-separate {
   background-color: #12131a !important; }
 /* line 85, /home/andrei/dev/emerald/source/stylesheets/bootstrap-extra/_off_canvas_aspect.scss */
 .oc-sidebar .dropdown-menu {
-  background: #1c1d24;
+  background: #eee;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -14355,10 +14355,10 @@ table.fc-border-separate {
 @media (min-width: 1200px) {
   /* line 106, /home/andrei/dev/emerald/source/stylesheets/bootstrap-extra/_off_canvas_aspect.scss */
   .oc-lg-partial-left .oc-sidebar-nav > li > a {
-    background-color: #12131a !important; }
+    background-color: #eee !important; }
     /* line 108, /home/andrei/dev/emerald/source/stylesheets/bootstrap-extra/_off_canvas_aspect.scss */
     .oc-lg-partial-left .oc-sidebar-nav > li > a:hover, .oc-lg-partial-left .oc-sidebar-nav > li > a:focus {
-      background-color: #12131a !important; }
+      background-color:  rgba(30, 31, 39, 0.06) !important; }
 
   /* line 151, /home/andrei/dev/emerald/source/stylesheets/bootstrap-extra/_off_canvas_aspect.scss */
   .oc-lg-partial-left .oc-sidebar-nav li.active a::after {
