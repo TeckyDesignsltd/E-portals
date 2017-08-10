@@ -1309,14 +1309,15 @@ a {
   color: #080909;
   text-decoration: none; }
   /* line 53, /home/andrei/dev/emerald/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_scaffolding.scss */
-  a:hover, a:focus {
-    color: black;
-    text-decoration: underline; }
+  a:hover, a:focus, a:active{
+    color: #c02f26;
+   /* text-decoration: underline; */}
   /* line 58, /home/andrei/dev/emerald/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px; }
+    outline-offset: -2px;
+    color: #c02f26; }
 
 /* line 69, /home/andrei/dev/emerald/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_scaffolding.scss */
 figure {
@@ -5998,7 +5999,7 @@ button.close {
 
 /* line 64, /home/andrei/dev/emerald/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_modals.scss */
 .modal-backdrop {
-  position: fixed;
+ /* position: fixed;*/
   top: 0;
   right: 0;
   bottom: 0;
@@ -6033,6 +6034,8 @@ button.close {
 .modal-body {
   position: relative;
   padding: 15px; }
+
+  .filter{filter: url(#blur2px)!important;}
 
 /* line 103, /home/andrei/dev/emerald/vendor/assets/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer {
@@ -23329,7 +23332,8 @@ h3.em-page-header {
 
 /* line 6, /home/andrei/dev/emerald/source/stylesheets/bootstrap-overrides/_scaffolding.scss */
 a, a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #c02f26;}
 
 /* line 11, /home/andrei/dev/emerald/source/stylesheets/bootstrap-overrides/_scaffolding.scss */
 .thumbnail {
