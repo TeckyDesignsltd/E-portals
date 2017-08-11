@@ -20,7 +20,7 @@
 <link rel="shortcut icon" href="../images/favicon.png">
 
 <!-- Use title if it's in the page YAML frontmatter -->
-<title>Hostel Managment Dashboard</title>
+<title>Admin Dashboard</title>
 
 <script type="text/javascript">
     var polyfilter_scriptpath = "/themes/emerald/polyfills/filters/";
@@ -268,9 +268,23 @@
     
               <!-- Beginning -->
               <li class=" active">
-                <a rel="popover" data-container="body" data-placement="right" data-content="Hostel Management Dashboard" href="hostel_managment.html" style="color: #c02f26;">
+                <a rel="popover" data-container="body" data-placement="right" data-content="Hostel Management Dashboard" href="admin_dashboard.html" style="color: #c02f26;">
                   
-                   <i class="oc-partial-icon icm icm-screen4"></i>
+                    <i class="oc-partial-icon icm icm-screen4"></i>
+                  
+                  <span class="oc-partial-menu-item">
+                    Admin Dashboard
+                    
+                  </span>
+                </a>
+                
+                
+              </li>
+
+              <li class=" active">
+                <a rel="popover" data-container="body" data-placement="right" data-content="Hostel Management Dashboard" href="hostel_managment.html">
+                  
+                    <i class="oc-partial-icon icm  icm-home5"></i>
                   
                   <span class="oc-partial-menu-item">
                     Hostel Management
@@ -280,6 +294,7 @@
                 
                 
               </li>
+
 
 
               <li class=" dropdown active">
@@ -366,27 +381,11 @@
               </a>
             </li>
           </ul>
-          <a class="navbar-brand" href="hostel_managment.html">
+          <a class="navbar-brand" href="admin_dashboard.html">
             <img src="../images/logo1.png" style="height: 45px;" />
             <!-- <span class="text-gradient-success-dk">Emerald</span> -->
           </a>
-         <!--  <ul class="nav navbar-nav navbar-right pull-right">
-            <li id="oc-right-toggle-container">
-              <a id="oc-right-toggle" href="#oc-wrapper" class="btn-nav sidebar-toggle-right"
-                 
-                 rel="tooltip" title="Toggle chat"
-                 data-placement="bottom" 
-                 data-container="#oc-right-toggle-container" 
-                 
-                 data-toggle="offcanvas" data-control="right"
-                 data-states="open,hidden"
-                 data-persist="lg,md,sm">
-                <i class="fa fa-lg fa-comments has-corner-badge">
-                  <span class="badge badge-corner badge-corner-top-right badge-info">3</span>
-                </i>
-              </a>
-            </li>
-          </ul> -->
+         
           <ul class="nav navbar-nav navbar-right pull-right hidden-xs">
             <li class="dropdown">
               <a href="#" data-toggle="dropdown" class="navbar-img-link">
@@ -407,7 +406,7 @@
                 </li>
                 <li>
                   <a href="#">
-                    <a href="pages/hostelsignin.html">
+                    <a href="pages/admin.html">
                       <i class="fa fa-power-off text-danger"></i>
                       <span class="text-danger">Sign out</span>
                     </a>
@@ -416,16 +415,7 @@
               </ul>
             </li>
           </ul>
-          <ul class="nav navbar-nav nav-center hidden-xs">
-            <li>
-              <!-- <form class="navbar-form-inplace navbar-form-search navbar-right" role="search">
-                <div class="form-group has-header selectize-search no-margin-bottom">
-                  <span class="fa fa-search form-control-header"></span>
-                  <input type="text" class="form-control selectize-search-movie" placeholder="Search">
-                </div>
-              </form> -->
-            </li>
-          </ul>
+          
         </nav>
 
 
@@ -442,20 +432,20 @@
               <div class="panel-body-collapse collapse in">
                 
                 <div class="panel-body ">
-                  <h1 style="color: #d4ae1e;">HOSTEL MANAGMENT</h1>
-                    
+                  <h1 style="color: #d4ae1e;">AMINISTRATOR DASHBOARD</h1>
+
                   <table class="table table-clean datatable" data-scroll=".oc-scroll" id="rid690039f4aa0432318fd14c6e6bd1ea8512">
                     <thead>
                       <tr>
-                        <th class="text-center">Matric No</th>
-                        <th class="text-center">Student Name</th>
-                        <th class="text-center">Department</th>
+                        <th class="text-center">Hostel Management ID</th>
+                        <th class="text-center">Hostel Management Name</th>
+                        <!-- <th class="text-center">Department</th>
                         <th class="text-center">Hostel Location</th>
                         <th class="text-center">Hostel Name</th>
                         <th class="text-center">Room No</th>
-                        <th class="text-center">Accomodation request</th>
-                        <th class="text-center">Tenancy Status</th>
-                        <th class="text-center">Dismiss</th>
+                        <th class="text-center">Accomodation request</th>-->
+                        <th class="text-center">Register Date</th> 
+                        <th class="text-center">Dismiss</th> 
                       </tr>
                     </thead>
                     <tbody>
@@ -466,7 +456,7 @@
                       
                           <td class="text-center">Bukola Ade</td>
                       
-                          <td class="text-center">Accountant</td>
+                          <!-- <td class="text-center">Accountant</td>
 
                           <td class="text-center">Ikeja</td>
                       
@@ -474,7 +464,7 @@
                       
                           <td class="text-center">7</td>
 
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td> -->
                       
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
@@ -486,7 +476,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                          <!-- <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -495,6 +485,27 @@
                           <td class="text-center">7</td>
 
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966; ">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
+                       -->
+                          <td class="text-center">10/10/2018</td>
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
+                          
+                        </tr>
+
+                        <tr>
+                          
+                          <td class="text-center">005</td>
+                      
+                          <td class="text-center">Kunle Olawale</td>
+                      
+                          <!-- <td class="text-center">Computer Science</td>
+
+                          <td class="text-center">Yaba</td>
+                      
+                          <td class="text-center">Lagos hostel</td>
+                      
+                          <td class="text-center">7</td>
+
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td> -->
                       
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
@@ -507,7 +518,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                         <!--  <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -515,7 +526,7 @@
                       
                           <td class="text-center">7</td>
 
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td> -->
                       
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
@@ -528,7 +539,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                          <!-- <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -536,7 +547,7 @@
                       
                           <td class="text-center">7</td>
 
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td> -->
                       
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
@@ -549,7 +560,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                          <!-- <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -557,7 +568,7 @@
                       
                           <td class="text-center">7</td>
 
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td> -->
                       
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
@@ -570,7 +581,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                          <!-- <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -578,7 +589,7 @@
                       
                           <td class="text-center">7</td>
 
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td> -->
                       
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
@@ -591,7 +602,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                          <!-- <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -599,7 +610,7 @@
                       
                           <td class="text-center">7</td>
 
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td> -->
                       
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
@@ -612,7 +623,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                          <!-- <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -620,7 +631,7 @@
                       
                           <td class="text-center">7</td>
 
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td> -->
                       
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
@@ -633,7 +644,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                          <!-- <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -641,7 +652,7 @@
                       
                           <td class="text-center">7</td>
 
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td> -->
                       
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
@@ -654,7 +665,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                          <!-- <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -662,7 +673,7 @@
                       
                           <td class="text-center">7</td>
 
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td> -->
                       
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
@@ -675,7 +686,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                          <!-- <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -683,7 +694,7 @@
                       
                           <td class="text-center">7</td>
 
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
+                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td> -->
                       
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
@@ -696,7 +707,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                          <!-- <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -705,7 +716,7 @@
                           <td class="text-center">7</td>
 
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
-                      
+                       -->
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
                           
@@ -717,7 +728,7 @@
                       
                           <td class="text-center">Kunle Olawale</td>
                       
-                          <td class="text-center">Computer Science</td>
+                          <!-- <td class="text-center">Computer Science</td>
 
                           <td class="text-center">Yaba</td>
                       
@@ -726,28 +737,7 @@
                           <td class="text-center">7</td>
 
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
-                      
-                          <td class="text-center">10/10/2018</td>
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
-                          
-                        </tr>
-
-                        <tr>
-                          
-                          <td class="text-center">005</td>
-                      
-                          <td class="text-center">Kunle Olawale</td>
-                      
-                          <td class="text-center">Computer Science</td>
-
-                          <td class="text-center">Yaba</td>
-                      
-                          <td class="text-center">Lagos hostel</td>
-                      
-                          <td class="text-center">7</td>
-
-                          <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #74b966;">Accept</button> <button type="button" class="btn btn-sm" style="color: white;background:#d4ae1e;">Decline</button> <button type="button" class="btn btn-sm" style="color: white;background:#0f2453;">Pending</button></td>
-                      
+                       -->
                           <td class="text-center">10/10/2018</td>
                           <td class="text-center"><button type="button" class="btn btn-sm" style="color: white;background: #c02f26" onclick="alert('The record has been deleted successfully')">Delete</button> </td>
                           
@@ -769,38 +759,7 @@
   
 </div>
 
-<!-- don't tourc-->
-
-    <!-- <aside class="oc-sidebar oc-sidebar-right oc-sidebar-fixed">
-      <div class="oc-sidebar-header chat-sidebar-header">
-        <ul class="nav nav-tabs-oc nav-justified-all">
-          <li class="active">
-            <a href="#chat-users" class="btn-nav" data-toggle="tab"
-               rel="tooltip" data-placement="bottom" title="Users">
-              <i class="icm icm-users2"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#chat-recent" class="btn-nav" data-toggle="tab"
-               rel="tooltip" data-placement="bottom" title="Recent">
-              <i class="icm icm-clock"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#chat-favorites" class="btn-nav" data-toggle="tab"
-               rel="tooltip" data-placement="bottom" title="Favorites">
-              <i class="icm icm-star3"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#chat-settings" class="btn-nav" data-toggle="tab"
-               rel="tooltip" data-placement="bottom" title="Settings">
-              <i class="icm icm-cog2"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-
+<!-- don't tourch aside-->
 
   
 <!-- Needed by BSE.Mq.screen() helper in utils.js -->
